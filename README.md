@@ -28,6 +28,36 @@ Efe VARDALI <br>
 
 ### Çalışanlar: <br>
 
+
+
+### Kodsal içerik <br>
+
+Controller : BankaController ve HomeController adında 2 tane controller olusturduk.
+            - BankaController icerisinde Ekle,Sil,Guncelle,Detay,Listele işlemlerini yaptırmak icin gerekli metodlar ve işlemler yaptık.
+            
+Models : Banka.cs , Sube.cs ve ErrorViewModel adinda 3 tane Models olusturduk.
+        - Banka.cs in altında ki class'in icini doldurduk.
+        - Sube.cs in altında ki class'in icini doldurduk.
+        - Buradaki oluşturduğumuz verileri SQL icinde tablo oluşturarak kullandık.
+        
+NhibernateHelper : NHibernate.cs
+            -  NHibernate : .Net ortamı için hazırlanmış Orm dir.  Database de bulunan her bir tablonun bilgilerini almamıza yardımcı oldu.
+
+Views : Banka , Home
+       Banka : altinda Ekle,Sil,Guncelle,Detay,Listele adında ilgili alanlari görünteleme işlemleri yaptık.
+              - Banka = Calısanlar
+       Home : altinda Index , Privacy icerisine AnaSayfa yı ve Haberleri görüntüleyen kodları yazdık. 
+              - Index = AnaSayfa
+              - Privacy = Haberler
+              
+              
+SQL : 2 adet tablo olusturuldu.
+      - Banka Table ve Sube Table
+      - Banka : Id Ad Soyad Telefon SehirIlce Banka_Ad  
+             - PRIMARY KEY : ID
+      - Sube : Id Ad Soyad Telefon Banka_Ad Banka 
+             - PRIMARY KEY : ID
+             - FOREIGN KEY  : ALTER TABLE Sube WITH CHECK ADD CONSTRAINT [FK_Sube_Banka_id] FOREIGN KEY (Banka) REFERENCES Banka (Id)
 <br>
 
 <p align="right">(<a href="#top">Başa geri dön</a>)</p>
