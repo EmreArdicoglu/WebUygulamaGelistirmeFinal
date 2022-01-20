@@ -42,23 +42,23 @@ Models : <br><br> Banka.cs , Sube.cs ve ErrorViewModel adinda 3 tane Models olus
        <br> Buradaki oluşturduğumuz verileri SQL icinde tablo oluşturarak kullandık.<br>
        <br>
 NhibernateHelper :<br><br> NHibernate.cs
-          <br>  -  NHibernate : .Net ortamı için hazırlanmış Orm dir.  Database de bulunan her bir tablonun bilgilerini almamıza yardımcı oldu.<br>
+          <br>   NHibernate : .Net ortamı için hazırlanmış Orm dir.  Database de bulunan her bir tablonun bilgilerini almamıza yardımcı oldu.<br>
 
 Views : <br><br>Banka , Home <br>
      <br>  Banka : altinda Ekle,Sil,Guncelle,Detay,Listele adında ilgili alanlari görünteleme işlemleri yaptık.
-            <br>  - Banka = Calısanlar
+            <br>   Banka = Calısanlar
       <br> Home : altinda Index , Privacy icerisine AnaSayfa yı ve Haberleri görüntüleyen kodları yazdık. 
-      <br>      - Index = AnaSayfa
-      <br>      - Privacy = Haberler
+      <br>       Index = AnaSayfa
+      <br>       Privacy = Haberler
       <br>        
               
 SQL :<br> 2 adet tablo olusturuldu.
-   <br>   - Banka Table ve Sube Table
-   <br>   - Banka : Id Ad Soyad Telefon SehirIlce Banka_Ad  
-             - PRIMARY KEY : ID
-   <br>   - Sube : Id Ad Soyad Telefon Banka_Ad Banka 
-   <br>          - PRIMARY KEY : ID
-   <br>          - FOREIGN KEY  : ALTER TABLE Sube WITH CHECK ADD CONSTRAINT [FK_Sube_Banka_id] FOREIGN KEY (Banka) REFERENCES Banka (Id)
+   <br>    Banka Table ve Sube Table
+   <br>    Banka : Id Ad Soyad Telefon SehirIlce Banka_Ad  
+                  PRIMARY KEY : ID
+   <br>    Sube : Id Ad Soyad Telefon Banka_Ad Banka 
+   <br>           PRIMARY KEY : ID
+   <br>           FOREIGN KEY  : ALTER TABLE Sube WITH CHECK ADD CONSTRAINT [FK_Sube_Banka_id] FOREIGN KEY (Banka) REFERENCES Banka (Id)
 <br>
 
 <p align="right">(<a href="#top">Başa geri dön</a>)</p>
