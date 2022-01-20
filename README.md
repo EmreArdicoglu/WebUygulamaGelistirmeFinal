@@ -20,15 +20,15 @@ Efe VARDALI <br>
 
 ### Anasayfa: <br>
 
-<br>
+Kendi bankamız için hazırladığımız web sayfasının Anasayfası. Genel olarak bankamız hakkında fotoğraflar ve kısa bilgiler içermektedir En alt kısımda ise bir iletişim kutusu yer alıyor. <br>
 
 ### Haberler: <br>
 
-<br>
+Dünya gündemindeki güncel haberleri içeriyor.<br>
 
 ### Çalışanlar: <br>
 
-
+Sisteme yeni çalışan ekleyebiliyoruz ve çalışan bilgileri üzerinde değişiklik yapabiliyoruz. <br>
 
 ### Kodsal içerik <br>
 
