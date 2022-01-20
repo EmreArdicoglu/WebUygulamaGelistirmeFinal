@@ -40,7 +40,7 @@ Models : <br><br> Banka.cs , Sube.cs ve ErrorViewModel adinda 3 tane Models olus
        <br> - Banka.cs in altında ki class'in icini doldurduk.
        <br> - Sube.cs in altında ki class'in icini doldurduk.
        <br> - Buradaki oluşturduğumuz verileri SQL icinde tablo oluşturarak kullandık.<br>
-        
+       <br>
 NhibernateHelper :<br><br> NHibernate.cs
           <br>  -  NHibernate : .Net ortamı için hazırlanmış Orm dir.  Database de bulunan her bir tablonun bilgilerini almamıza yardımcı oldu.
 
