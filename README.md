@@ -53,12 +53,12 @@ Views : Banka , Home
               
               
 SQL : 2 adet tablo olusturuldu.
-      - Banka Table ve Sube Table
-      - Banka : Id Ad Soyad Telefon SehirIlce Banka_Ad  
-             - PRIMARY KEY : ID
-      - Sube : Id Ad Soyad Telefon Banka_Ad Banka 
-             - PRIMARY KEY : ID
-             - FOREIGN KEY  : ALTER TABLE Sube WITH CHECK ADD CONSTRAINT [FK_Sube_Banka_id] FOREIGN KEY (Banka) REFERENCES Banka (Id)
+   <br>   - Banka Table ve Sube Table
+   <br>   - Banka : Id Ad Soyad Telefon SehirIlce Banka_Ad  
+   <br>          - PRIMARY KEY : ID
+   <br>   - Sube : Id Ad Soyad Telefon Banka_Ad Banka 
+   <br>          - PRIMARY KEY : ID
+   <br>          - FOREIGN KEY  : ALTER TABLE Sube WITH CHECK ADD CONSTRAINT [FK_Sube_Banka_id] FOREIGN KEY (Banka) REFERENCES Banka (Id)
 <br>
 
 <p align="right">(<a href="#top">Başa geri dön</a>)</p>
