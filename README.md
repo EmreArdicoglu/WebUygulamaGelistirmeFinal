@@ -32,7 +32,7 @@ Efe VARDALI <br>
 
 ### Kodsal içerik <br>
 
-Controller : BankaController ve HomeController adında 2 tane controller olusturduk. <br>
+Controller : <br> BankaController ve HomeController adında 2 tane controller olusturduk. <br>
             - BankaController icerisinde Ekle,Sil,Guncelle,Detay,Listele işlemlerini yaptırmak icin gerekli metodlar ve işlemler yaptık.<br>
              <br>
                       
