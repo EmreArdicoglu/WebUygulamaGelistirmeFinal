@@ -36,10 +36,10 @@ Controller : <br> BankaController ve HomeController adında 2 tane controller ol
             - BankaController icerisinde Ekle,Sil,Guncelle,Detay,Listele işlemlerini yaptırmak icin gerekli metodlar ve işlemler yaptık.<br>
              <br>
                       
-Models : Banka.cs , Sube.cs ve ErrorViewModel adinda 3 tane Models olusturduk.
+Models : <br> Banka.cs , Sube.cs ve ErrorViewModel adinda 3 tane Models olusturduk.
         - Banka.cs in altında ki class'in icini doldurduk.
         - Sube.cs in altında ki class'in icini doldurduk.
-        - Buradaki oluşturduğumuz verileri SQL icinde tablo oluşturarak kullandık.
+        - Buradaki oluşturduğumuz verileri SQL icinde tablo oluşturarak kullandık.<br>
         
 NhibernateHelper : NHibernate.cs
             -  NHibernate : .Net ortamı için hazırlanmış Orm dir.  Database de bulunan her bir tablonun bilgilerini almamıza yardımcı oldu.
