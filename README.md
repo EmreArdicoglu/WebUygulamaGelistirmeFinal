@@ -32,9 +32,10 @@ Efe VARDALI <br>
 
 ### Kodsal içerik <br>
 
-Controller : BankaController ve HomeController adında 2 tane controller olusturduk.
-            - BankaController icerisinde Ekle,Sil,Guncelle,Detay,Listele işlemlerini yaptırmak icin gerekli metodlar ve işlemler yaptık.
-            
+Controller : BankaController ve HomeController adında 2 tane controller olusturduk. <br>
+            - BankaController icerisinde Ekle,Sil,Guncelle,Detay,Listele işlemlerini yaptırmak icin gerekli metodlar ve işlemler yaptık.<br>
+             <br>
+                      
 Models : Banka.cs , Sube.cs ve ErrorViewModel adinda 3 tane Models olusturduk.
         - Banka.cs in altında ki class'in icini doldurduk.
         - Sube.cs in altında ki class'in icini doldurduk.
