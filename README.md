@@ -41,15 +41,15 @@ Models : <br> Banka.cs , Sube.cs ve ErrorViewModel adinda 3 tane Models olusturd
        <br> - Sube.cs in altında ki class'in icini doldurduk.
        <br> - Buradaki oluşturduğumuz verileri SQL icinde tablo oluşturarak kullandık.<br>
         
-NhibernateHelper : NHibernate.cs
+NhibernateHelper :<br> NHibernate.cs
           <br>  -  NHibernate : .Net ortamı için hazırlanmış Orm dir.  Database de bulunan her bir tablonun bilgilerini almamıza yardımcı oldu.
 
-Views : Banka , Home
-       Banka : altinda Ekle,Sil,Guncelle,Detay,Listele adında ilgili alanlari görünteleme işlemleri yaptık.
-              - Banka = Calısanlar
-       Home : altinda Index , Privacy icerisine AnaSayfa yı ve Haberleri görüntüleyen kodları yazdık. 
-              - Index = AnaSayfa
-              - Privacy = Haberler
+Views : Banka , Home<br>
+     <br>  Banka : altinda Ekle,Sil,Guncelle,Detay,Listele adında ilgili alanlari görünteleme işlemleri yaptık.
+            <br>  - Banka = Calısanlar
+      <br> Home : altinda Index , Privacy icerisine AnaSayfa yı ve Haberleri görüntüleyen kodları yazdık. 
+      <br>      - Index = AnaSayfa
+      <br>      - Privacy = Haberler
               
               
 SQL : 2 adet tablo olusturuldu.
