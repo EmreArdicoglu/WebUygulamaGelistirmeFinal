@@ -50,9 +50,9 @@ Views : <br><br>Banka , Home <br>
       <br> Home : altinda Index , Privacy icerisine AnaSayfa yı ve Haberleri görüntüleyen kodları yazdık. 
       <br>      - Index = AnaSayfa
       <br>      - Privacy = Haberler
+      <br>        
               
-              
-SQL : 2 adet tablo olusturuldu.
+SQL :<br> 2 adet tablo olusturuldu.
    <br>   - Banka Table ve Sube Table
    <br>   - Banka : Id Ad Soyad Telefon SehirIlce Banka_Ad  
    <br>          - PRIMARY KEY : ID
